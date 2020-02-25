@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Penny Quiz</title>
+</head>
+
+<body>
+    <!--top-->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-info display-3 my-4">Penny Quiz</h2>
+        </div>
+        <!--display % -->
+        <div class="result py-4 d-none bg-light text-center">  <!--d-none : in css same as display: none -->
+            <div class="container lead">
+                <p>You are <span class="text-warning display-4 p-3">0%</span>Penny's friend!</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!--Quiz area-->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">On with the questions...</h2>
+            <form class="quiz-form text-light">
+                <!--1st QUESTION-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. What's the 1st thing Penny says in the morning? </p>
+                    <!--lead is bootstraps-->
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">"Get up my slaves!"</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B" checked>
+                        <label class="form-check-label">"Pipu-pipu-piiii..."</label>
+                    </div>
+                </div>
+                <!--2nd QUESTION-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2. What's Penny's favourite snack? </p>
+                    <!--lead is bootstraps-->
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label">Her own <i>(damn expensive!)</i> kibble</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B" checked>
+                        <label class="form-check-label">Bones</label>
+                    </div>
+                </div>
+                <!--3nd QUESTION-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. What is Penny's favourite free activity? </p>
+                    <!--lead is bootstraps-->
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label">Barking</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B" checked>
+                        <label class="form-check-label">Bathing</label>
+                    </div>
+                </div>
+                <!--4th QUESTION-->
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. Whom does Penny like more? </p>
+                    <!--lead is bootstraps-->
+
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="form-check-label">Zizi</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B" checked>
+                        <label class="form-check-label">Jere</label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="penny.js"></script>
+
+</body>
+
+</html>
